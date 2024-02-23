@@ -1,0 +1,54 @@
+
+
+.movielistitem{
+    width: 10rem;
+    max-height: 20rem;
+    padding: 20px;
+    /* border: 1px solid white; */
+    opacity: 0.7;
+    transition: transform 0.45s;
+}
+
+.movielistitem:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+.imagecontainer{
+    margin-right: 40px;
+}
+
+.allmoviesbodyhere{
+    background-color: rgb(11, 12, 44);
+    
+}
+
+.allmoviesheadhere{
+    margin-left: 40px;
+}
+
+.moviestitle{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    /* margin-top: 8px; */
+}
+
+
+/* media queries */
+
+/* mobile phone  */
+
+/* @media(max-width: 768px){
+    .moviestitle{
+        font-size: 20px;
+    }
+    .movielistitem{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+} */
+
